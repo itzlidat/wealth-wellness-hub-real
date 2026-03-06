@@ -9,6 +9,9 @@ import ScenarioImpact from './components/ScenarioImpact'
 import HealthSummary from './components/HealthSummary'
 import Alerts from './components/Alerts'
 import Recommendations from './components/Recommendations'
+import { Box } from "@mui/material";
+
+
 
 function fmtTime(iso) {
   if (!iso) return null
@@ -102,6 +105,14 @@ export default function App() {
     : null
 
   return (
+    <Box
+    sx={{
+      minHeight: "100vh",
+      background:
+        "radial-gradient(1200px 600px at 20% 10%, rgba(192,38,211,0.25), transparent 60%), radial-gradient(900px 500px at 80% 30%, rgba(59,130,246,0.20), transparent 55%), #0B0F1A",
+      p: 3,
+    }}
+  >
     <div className="app">
       {/* ---- Sidebar ---- */}
       <aside className="sidebar">
@@ -263,5 +274,6 @@ export default function App() {
 
       <AssetModal asset={selectedAsset} onClose={() => setSelectedAsset(null)} />
     </div>
+    </Box>
   )
 }

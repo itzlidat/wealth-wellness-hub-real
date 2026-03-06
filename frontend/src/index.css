@@ -78,6 +78,38 @@ body {
   border-color: #4285f4;
 }
 
+.sidebar {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(237, 239, 246, 0.85);
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar label,
+.sidebar .caption {
+  color: rgba(237, 239, 246, 0.85);
+}
+
+/* Dark inputs inside sidebar */
+.sidebar input,
+.sidebar select,
+.sidebar button {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(237, 239, 246, 0.90);
+}
+
+.sidebar select option {
+  color: #111; /* dropdown list items */
+}
+
+.sidebar input[type="file"] {
+  color: rgba(237, 239, 246, 0.90);
+}
+
 .btn-reset {
   width: 100%;
   margin-top: 10px;
@@ -118,6 +150,12 @@ body {
   margin-bottom: 24px;
 }
 
+.main-title {
+  color: rgba(237, 239, 246, 0.92);
+}
+.main-subtitle {
+  color: rgba(237, 239, 246, 0.65);
+}
 /* ---- Card ---- */
 .card {
   background: #fff;
@@ -133,6 +171,21 @@ body {
   margin-bottom: 14px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+/* Glass cards */
+.card {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.10) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  color: rgba(237, 239, 246, 0.90);
+}
+
+/* Make headings readable on dark */
+.card h2 {
+  color: rgba(237, 239, 246, 0.92);
 }
 
 /* ---- Row layout ---- */
@@ -643,3 +696,36 @@ tr:hover td { background: #fafbfc; }
 
 .range-btn:hover { border-color: #4285f4; color: #1a73e8; }
 .range-btn.active { background: #0052cc; border-color: #0052cc; color: #fff; }
+
+
+/* Ensure text is readable on dark glass cards */
+.card,
+.card * {
+  color: rgba(237, 239, 246, 0.90);
+}
+
+.card p,
+.card span {
+  color: rgba(237, 239, 246, 0.75);
+}
+
+/* Table readability on dark cards */
+.card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card th {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(237, 239, 246, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.card td {
+  color: rgba(237, 239, 246, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card tr:hover td {
+  background: rgba(255, 255, 255, 0.05);
+}
