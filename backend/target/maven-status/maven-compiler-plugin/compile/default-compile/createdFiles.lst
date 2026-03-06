@@ -1,0 +1,17 @@
+com/wealthwellness/controller/PortfolioController.class
+com/wealthwellness/model/OhlcResponse.class
+com/wealthwellness/service/PriceService.class
+com/wealthwellness/model/Asset.class
+com/wealthwellness/service/ScenarioService.class
+com/wealthwellness/model/CustomScenario.class
+com/wealthwellness/service/RecommendationService.class
+com/wealthwellness/model/OhlcBar.class
+com/wealthwellness/service/PriceService$StockQuote.class
+com/wealthwellness/model/AllocationEntry.class
+com/wealthwellness/service/PortfolioService.class
+com/wealthwellness/model/AnalysisRequest.class
+com/wealthwellness/service/ScoringService.class
+com/wealthwellness/model/ScenarioImpactItem.class
+com/wealthwellness/WealthWellnessApplication.class
+com/wealthwellness/model/Recommendation.class
+com/wealthwellness/model/AnalysisResult.class

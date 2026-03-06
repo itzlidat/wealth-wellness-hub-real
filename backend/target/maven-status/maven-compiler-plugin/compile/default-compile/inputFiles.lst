@@ -1,0 +1,16 @@
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/WealthWellnessApplication.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/service/ScenarioService.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/AnalysisResult.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/Asset.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/OhlcResponse.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/CustomScenario.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/service/ScoringService.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/service/RecommendationService.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/controller/PortfolioController.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/OhlcBar.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/AllocationEntry.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/AnalysisRequest.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/Recommendation.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/model/ScenarioImpactItem.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/service/PortfolioService.java
+/Users/jacob1/ntu hackathon stuff/wealth-wellness-hub-real/backend/src/main/java/com/wealthwellness/service/PriceService.java
